@@ -1,0 +1,14 @@
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\bin\Debug\net9.0\12.05.2026.exe
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\bin\Debug\net9.0\12.05.2026.deps.json
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\bin\Debug\net9.0\12.05.2026.runtimeconfig.json
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\bin\Debug\net9.0\12.05.2026.dll
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\bin\Debug\net9.0\12.05.2026.pdb
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\12.05.2026.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\12.05.2026.AssemblyInfoInputs.cache
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\12.05.2026.AssemblyInfo.cs
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\12.05.2026.csproj.CoreCompileInputs.cache
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\12.05.2026.dll
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\refint\12.05.2026.dll
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\12.05.2026.pdb
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\12.05.2026.genruntimeconfig.cache
+C:\Users\admin\RiderProjects\12.05.2026\12.05.2026\obj\Debug\net9.0\ref\12.05.2026.dll
