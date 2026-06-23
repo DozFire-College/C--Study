@@ -1,0 +1,14 @@
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\bin\Debug\ZapretAgainWrite.exe.config
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\bin\Debug\ZapretAgainWrite.exe
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\bin\Debug\ZapretAgainWrite.pdb
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\ZapretAgainWrite.csproj.AssemblyReference.cache
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\MainWindow.baml
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\MainWindow.g.cs
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\App.g.cs
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\ZapretAgainWrite_MarkupCompile.cache
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\ZapretAgainWrite.g.resources
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\ZapretAgainWrite.Properties.Resources.resources
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\ZapretAgainWrite.csproj.GenerateResource.cache
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\ZapretAgainWrite.csproj.CoreCompileInputs.cache
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\ZapretAgainWrite.exe
+C:\Users\alex1\source\repos\ZapretAgainWrite\ZapretAgainWrite\obj\Debug\ZapretAgainWrite.pdb
