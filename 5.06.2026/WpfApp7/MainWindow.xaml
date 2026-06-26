@@ -1,0 +1,122 @@
+﻿<Window x:Class="WpfApp7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="Игра 21 (Блэкджек)" Height="550" Width="800"
+        Background="White">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="ИГРА 21" 
+                   FontSize="36" FontWeight="Bold" 
+                   Foreground="Gold" HorizontalAlignment="Center" 
+                   Margin="0,0,0,20"/>
+
+        <GroupBox Grid.Row="1" Header="Карты дилера:" 
+                  FontSize="16" FontWeight="Bold" 
+                  Foreground="White" 
+                  Background="Green"
+                  BorderBrush="Gold" Margin="0,0,0,15">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" Foreground="White" 
+                               FontSize="16" FontWeight="Bold"/>
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <StackPanel Height="89">
+                <TextBlock x:Name="DealerCardsText" 
+                           Text="Карты не сданы" 
+                           FontSize="18" 
+                           Foreground="LightYellow" 
+                           Margin="10"/>
+                <TextBlock x:Name="DealerScoreText" 
+                           Text="Очки: 0" 
+                           FontSize="16" 
+                           Foreground="Orange" 
+                           Margin="10,0,10,10"/>
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Grid.Row="2" Header="Ваши карты:" 
+                  FontSize="16" FontWeight="Bold" 
+                  Foreground="White" 
+                  Background="Green"
+                  BorderBrush="Gold" Margin="0,0,0,15">
+            <GroupBox.HeaderTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" Foreground="White" 
+                               FontSize="16" FontWeight="Bold"/>
+                </DataTemplate>
+            </GroupBox.HeaderTemplate>
+            <StackPanel>
+                <TextBlock x:Name="PlayerCardsText" 
+                           Text="Карты не сданы" 
+                           FontSize="18" 
+                           Foreground="LightYellow" 
+                           Margin="10"/>
+                <TextBlock x:Name="PlayerScoreText" 
+                           Text="Очки: 0" 
+                           FontSize="16" 
+                           Foreground="Orange" 
+                           Margin="10,0,10,10"/>
+            </StackPanel>
+        </GroupBox>
+
+        <TextBlock Grid.Row="3" x:Name="ResultText" 
+                   Text="" 
+                   FontSize="24" FontWeight="Bold" 
+                   Foreground="Yellow" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,10,0,10"/>
+
+        <StackPanel Grid.Row="4" 
+                    Orientation="Horizontal" 
+                    HorizontalAlignment="Center" 
+                    Margin="0,10,0,10">
+
+            <Button x:Name="StartButton" 
+                    Content="Начать игру" 
+                    Width="150" Height="45" 
+                    FontSize="16" FontWeight="Bold"
+                    Background="DarkGoldenrod" 
+                    Foreground="White"
+                    BorderBrush="Gold"
+                    Margin="5" 
+                    Click="StartButton_Click"/>
+
+            <Button x:Name="HitButton" 
+                    Content="Добавить карту" 
+                    Width="150" Height="45" 
+                    FontSize="16" FontWeight="Bold"
+                    Background="SteelBlue" 
+                    Foreground="White"
+                    BorderBrush="LightBlue"
+                    Margin="5" 
+                    Click="HitButton_Click"
+                    IsEnabled="False"/>
+
+            <Button x:Name="StandButton" 
+                    Content="Проверить результат" 
+                    Width="180" Height="45" 
+                    FontSize="16" FontWeight="Bold"
+                    Background="Firebrick" 
+                    Foreground="White"
+                    BorderBrush="IndianRed"
+                    Margin="5" 
+                    Click="StandButton_Click"
+                    IsEnabled="False"/>
+        </StackPanel>
+
+        <!-- Статистика -->
+    </Grid>
+</Window>
