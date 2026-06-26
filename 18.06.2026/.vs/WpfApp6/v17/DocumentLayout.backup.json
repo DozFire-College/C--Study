@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\WpfApp6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B87E11E-00C7-4574-B4C5-0BBC2BFBFF48}|WpfApp6\\WpfApp6.csproj|c:\\users\\admin\\source\\repos\\wpfapp6\\wpfapp6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B87E11E-00C7-4574-B4C5-0BBC2BFBFF48}|WpfApp6\\WpfApp6.csproj|solutionrelative:wpfapp6\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\WpfApp6\\WpfApp6\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp6\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\WpfApp6\\WpfApp6\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "WpfApp6\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAANsAAAAAAAAAAAAUwOgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T08:33:06.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
