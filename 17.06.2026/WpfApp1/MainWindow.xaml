@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Margin="10">
+            <Button x:Name="button1" Content="Открыть" Height="25" Margin="0,0,0,10" Click="button1_Click"/>
+            <Label x:Name="label1" Content="X:"/>
+            <TextBox x:Name="textBox1" Text="0" Height="22"/>
+            <Label x:Name="label2" Content="Y:"/>
+            <TextBox x:Name="textBox2" Text="0" Height="22"/>
+            <Label x:Name="label3" Content="Ширина:"/>
+            <TextBox x:Name="textBox3" Text="100" Height="22"/>
+            <Label x:Name="label4" Content="Высота:"/>
+            <TextBox x:Name="textBox4" Text="100" Height="22"/>
+            <Button x:Name="button2" Content="Нарисовать" Height="25" Margin="0,10,0,0" Click="button2_Click"/>
+            <Button x:Name="button3" Content="Очистить" Height="25" Margin="0,5,0,0" Click="button3_Click"/>
+        </StackPanel>
+        <Border x:Name="border1" Grid.Column="1" Margin="10" BorderBrush="Gray" BorderThickness="1" Background="White">
+            <Image x:Name="image1" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </Border>
+    </Grid>
+</Window>
